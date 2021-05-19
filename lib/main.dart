@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
               title: Text('My First App'),
               backgroundColor: Colors.blue,
             ),
-            body:Image.network('https://picsum.photos/250?image=9'),
+            body:Image.network('https://picsum.photos/250?image=25'),
         ),
     );
   }
