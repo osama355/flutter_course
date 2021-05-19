@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
           title:Text('My First App'),
           backgroundColor: Colors.blue,
         ),
-        body:Center(Text('Hello from Osama'))
+        body:Center(child:Text('Hello from Osama'))
       )
     );
   }
