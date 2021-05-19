@@ -11,10 +11,8 @@ class MyApp extends StatelessWidget {
         appBar:AppBar(
           title:Text('My First App'),
           backgroundColor: Colors.blue,
-        )
-        body:Center(
-          Text('Hello from Osama')
-        )
+        ),
+        body:Text('Hello from Osama')
       )
     );
   }
