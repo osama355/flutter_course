@@ -8,8 +8,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body:Center(child:Text('Hello from Osama')),
-      ),
+        appBar:AppBar(
+          title:Text('My First App'),
+          backgroundColor: Colors.blue,
+        ),
+        body:Center(child:Text('Hello from Osama'))
+      )
     );
   }
 }
